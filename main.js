@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (postId && /^\d+$/.test(postId)) {
             showPostById(postId);
         } else {
-            alert('yalnis post ID. xahish edirik duzgun  post ID daxil edin.');
+            alert('yalnis post ID. xahish edirik post ID nomresini daxil edin.');
         }
     });
 });
